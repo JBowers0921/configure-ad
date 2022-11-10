@@ -46,17 +46,25 @@ This tutorial outlines the implementation of on-premises Active Directory within
  </p>
 <br /> 
 
-1.b. Go back to Home in Azure and select the VM Icon. You will see the VMs that you have created similar to the ones displayed below.
+1.b. Go back to Home in Azure and search and select the VM Icon. You will see the VMs that you have created similar to the ones displayed below.
 </p>
 <br />
 <img src="https://i.imgur.com/di1lu3l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
 </p>
-1.c. Before moving on to the next step of ensuring connectivity, go back to DC1 and set the NIC's Private IP address to read "Static" by: Opening DC1 and go to Network
+1.c. Before moving on to the next step of ensuring connectivity, go back to DC1 and set the NIC's Private IP address to read "Static" by: Opening DC1 and go to Networking > Network Interface(dc-1164). Click on the letters/numbers to the right (dc-1164)  
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/aGgD7Yc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+  
+The next screen will show: IP Configurations. Under the Private IP address, click on the numbers to open the next screen.   
+<p>
+ 1.c.1 When the next screen opens, under the word "Assignment", click and change the status to "Static" and save.
+  
+<p>  
+<img src="https://i.imgur.com/xALMXCH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In order to ensure connectivity:.
