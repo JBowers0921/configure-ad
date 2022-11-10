@@ -57,22 +57,29 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 <p>
 <img src="https://i.imgur.com/aGgD7Yc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
 <br />
-  
-The next screen will show: IP Configurations. Under the Private IP address, click on the numbers to open the next screen.   
+<p> 
+ 1.c.1 The next screen will show: IP Configurations. Under the Private IP address, click on the numbers to open the next screen.   
 <p>
- 1.c.1 When the next screen opens, under the word "Assignment", click and change the status to "Static" and save.
-  
+ <br />
+<img src="https://i.imgur.com/3lbRL23.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<p>
+<br />
+<p> 
+ 1.c.2 When the next screen opens, under the word "Assignment", click and change the status to "Static" and save.
+<p>  
 <p>  
 <img src="https://i.imgur.com/xALMXCH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In order to ensure connectivity:.
+2. In order to ensure connectivity:.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3lbRL23.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In order to install Active Directory:.
