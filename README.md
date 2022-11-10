@@ -74,14 +74,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/xALMXCH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-2. In order to ensure connectivity:.
+2. In order to ensure connectivity via the "ping" command, Open Client-1 (Azure) and copy the Public IP address. Open a Remote Desktop window and paste Client-1's Public IP address in the field and log into Client-1 with your created credentials.  Next, go back to Azure, into DC-1 and copy the Private IP address. Return to Client-1 Remote Desktop. In the Windows search field, type "Administrator Comman Promp" and open it. Next to your user name, type "ping -t"and DC1's Private IP and hit enter. You will see the request "time out" due to DC1's firewall blocking icmp traffic. 
 </p>
 <br />
-
 <p>
-<img src="https://i.imgur.com/3lbRL23.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Sr6dJxx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+<p>
+2.a In order to allow traffic,  
 In order to install Active Directory:.
 </p>
 <br />
