@@ -86,22 +86,39 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 <p>
 <img src="https://i.imgur.com/EL2Vh1w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
-   
+<p>   
 <img src="https://i.imgur.com/nhM5oYd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-2.a.1 In order to allow traffic, 
+2.a.1 Next, while still in DC1 Remote, go to the Windows search field and type " wf.msc" (windows firewall) and open the App. 
 <br />
 <p>
-<img src="  " height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/1tRAczA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<p>  
+</p>
+<p>
+2.a.2  App opens. Expand the window in order to view all.  In the upper left corner, click on "Inbound Rules". Click on "Protocol" and look for ICMPv4 (2 Core Networking). Highlight and right-click on both(one at a time) and select "Enable Rule".
+<br />
+<p>
+<img src="https://imgur.com/a/1DlnDAe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<br />
+2.a.3  Minimize DC1 Remote and go back to Client-1 Remote. You should start seeing the "Reply from" message start to populate. This verifies connectivity. Pres "CTRL C" to stop the ping.
+</p>
+<br />
+<p> 
+<img src="https://i.imgur.com/9N1MpYs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<br />
 <p>  
 In order to install Active Directory:.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In order to create an Admin and Normal User Account in AD.
