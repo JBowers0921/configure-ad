@@ -82,7 +82,18 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 <p>
-2.a In order to allow traffic,  
+2.a In order to allow traffic, go back to Azure, into DC1 and copy the Public IP address. Open a separate (2nd) remote desktop and connect to it using DC1's Public IP address. You will see a "Server Manager" Dashboard.
+<br />
+<p>
+<img src="https://i.imgur.com/EL2Vh1w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nhM5oYd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+</p>
+<p>
+2.a.1 In order to allow traffic, 
+<br />
+<p>
+<img src="  " height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<p>  
 In order to install Active Directory:.
 </p>
 <br />
