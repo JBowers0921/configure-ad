@@ -32,10 +32,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-In order to set up resources in Azure: 
+In order to set up resources in Azure: First create a Resource Group(RG). Then create the first Virtual Machine(VM). Name the VM "DC-1" (be sure to select Image: Windows Server 2022 Datacenter).
   
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+ While VM1 (DC-1) is being created, continue with your second VM and name it "Client-1" 
 </p>
 <br />
 
