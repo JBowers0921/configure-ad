@@ -31,22 +31,28 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
+1. In order to set up resources in Azure: First create a Resource Group(RG). Then create the first Virtual Machine(VM). Name the VM "DC-1" (be sure to select Image: Windows Server 2022 Datacenter).
+<p>    
 <img src="https://i.imgur.com/lPWiTAn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/5oxv7mf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-In order to set up resources in Azure: First create a Resource Group(RG). Then create the first Virtual Machine(VM). Name the VM "DC-1" (be sure to select Image: Windows Server 2022 Datacenter).
-  
+1.a. While VM1 (DC-1) is being created, continue with your second VM and name it "Client-1". Repeat the steps in creating the DC1 VM. *Be sure to select Image: Windows 10 Pro, Version.... . Also make sure both VMs are using the same Vnet.
+</p>
+<br />  
+<p>
   
 <img src="https://i.imgur.com/kXQhXJ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  
-While VM1 (DC-1) is being created, continue with your second VM and name it "Client-1". Repeat the steps in creating the DC1 VM. *Be sure to select Image: Windows 10 Pro, Version.... . Also make sure both VMs are using the same vnet.
+ </p>
+<br /> 
+
+1.b. Go back to Home in Azure and select the VM Icon. You will see the VMs that you have created similar to the ones displayed below.
 </p>
 <br />
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/di1lu3l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
-Go back to Home in Azure and select the VM Icon. You will see the VMs that you have created similar to the ones displayed above.
+</p>
+1.c. Before moving on to the next step of ensuring connectivity, go back to DC1 and set the NIC's Private IP address to read "Static" by: Opening DC1 and go to Network
 </p>
 <br />
 <p>
