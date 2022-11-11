@@ -336,10 +336,25 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p>   
-<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imagizer.imageshack.com/img924/6769/WOGFgT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />  
 <p>
+<p> 
+5.c  You will see
+</p>
+<br />  
+<p>
+<p> 
+<img src="https://imagizer.imageshack.com/img922/176/qsAF6l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<br />  
+<p>
+<p>
+<img src="https://imagizer.imageshack.com/img924/416/33cs9j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+<br />  
 <p>  
 6.   In order to  Set up Remote Desktop for non-admin users on Client-1:.
 </p>
