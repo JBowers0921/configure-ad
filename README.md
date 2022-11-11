@@ -204,7 +204,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 <br />  
 <p>  
-3.e   On the Domain Controller screen, enter your generic password (Password1 for training). Type it again for confirmation. Then on the proceding screens :Click NEXT, NEXT. When the Net Bios domain populates, click NEXT, and NEXT on Paths, NEXT on Review. Wait on the Precheck, then click INSTALL.  Wait for the installation to complete. You may get logged out.  
+3.e   On the Domain Controller screen, enter your generic password (Password1 for training). Type it again for confirmation. Then on the proceding screens :Click NEXT, NEXT. When the Net Bios domain populates, click NEXT, and NEXT on Paths, NEXT on Review. Wait on the Precheck, then click INSTALL.  Wait for the installation to complete. You may get logged out of DC-1 remote desktop. Log back in with your newly created credentials(anydomain.com\username and password) using DC-1's Public IP address found in Azure.
 <p>
 <br />
 <br />  
@@ -214,7 +214,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 <br />  
 <p>       
-4.  In order to create an Admin and Normal User Account in AD.
+4.  In order to create an Admin and Normal User Account in AD, while DC-1 is still open go to.
 </p>
 <br />
 <br />  
