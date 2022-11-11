@@ -293,7 +293,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://imagizer.imageshack.com/img924/4563/UY8ccZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br
-<br />  
+<br />
+<p>
+<p> 
+4.f.1    To see the results, log out of DC. Log back in as yourdomain.com\jane_admin and the password (Password1). To insure connection, go to the command prompt and open it and you can see "c:\user\jane_admin".
+</p>
+<br
+<br />
 <p>
 <p>    
 5.   In order to  Set up Remote Desktop for non-admin users on Client-1:.
