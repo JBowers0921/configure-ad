@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-1. In order to set up resources in Azure: First create a Resource Group(RG). Then create the first Virtual Machine(VM). Name the VM "DC-1" (be sure to select Image: Windows Server 2022 Datacenter).
+1.   In order to set up resources in Azure: First create a Resource Group(RG). Then create the first Virtual Machine(VM). Name the VM "DC-1" (be sure to select Image: Windows Server 2022 Datacenter).
 <p>    
 <img src="https://i.imgur.com/lPWiTAn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />  
@@ -41,7 +41,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <br />  
 <p>  
-1.a. While VM1 (DC-1) is being created, continue with your second VM and name it "Client-1". Repeat the steps in creating the DC1 VM. *Be sure to select Image: Windows 10 Pro, Version.... . Also make sure both VMs are using the same Vnet.
+1.a.   While VM1 (DC-1) is being created, continue with your second VM and name it "Client-1". Repeat the steps in creating the DC1 VM. *Be sure to select Image: Windows 10 Pro, Version.... . Also make sure both VMs are using the same Vnet.
 </p>
 <br />  
 <p>
@@ -51,7 +51,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br /> 
 <br />  
 <p>
-1.b. Go back to Home in Azure and search and select the VM Icon. You will see the VMs that you have created similar to the ones displayed below.
+1.b.   Go back to Home in Azure and search and select the VM Icon. You will see the VMs that you have created similar to the ones displayed below.
 </p>
 <br />
 <br />  
@@ -60,7 +60,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>  
 </p>
-1.c. Before moving on to the next step of ensuring connectivity, go back to DC1 and set the NIC's Private IP address to read "Static" by: Opening DC1 and go to Networking > Network Interface(dc-1164). Click on the letters/numbers to the right (dc-1164)  
+1.c.   Before moving on to the next step of ensuring connectivity, go back to DC1 and set the NIC's Private IP address to read "Static" by: Opening DC1 and go to Networking > Network Interface(dc-1164). Click on the letters/numbers to the right (dc-1164)  
 <br />  
 <p>
 </p>
@@ -73,7 +73,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p> 
 <br />  
 <p>  
- 1.c.1 The next screen will show: IP Configurations. Under the Private IP address, click on the numbers to open the next screen.   
+ 1.c.1   The next screen will show: IP Configurations. Under the Private IP address, click on the numbers to open the next screen.   
 <p>
  <br />
 <br />  
@@ -84,7 +84,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p> 
 <br />  
 <p>  
- 1.c.2 When the next screen opens, under the word "Assignment", click and change the status to "Static" and save.
+ 1.c.2   When the next screen opens, under the word "Assignment", click and change the status to "Static" and save.
 <p>  
 <p> 
 <br />  
@@ -94,7 +94,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <br />  
 <p>  
-2. In order to ensure connectivity via the "ping" command, Open Client-1 (Azure) and copy the Public IP address. Open a Remote Desktop window and paste Client-1's Public IP address in the field and log into Client-1 with your created credentials.  Next, go back to Azure, into DC-1 and copy the Private IP address. Return to Client-1 Remote Desktop. In the Windows search field, type "Administrator Comman Promp" and open it. Next to your user name, type "ping -t"and DC1's Private IP and hit enter. You will see the request "time out" due to DC1's firewall blocking icmp traffic. 
+2.   In order to ensure connectivity via the "ping" command, Open Client-1 (Azure) and copy the Public IP address. Open a Remote Desktop window and paste Client-1's Public IP address in the field and log into Client-1 with your created credentials.  Next, go back to Azure, into DC-1 and copy the Private IP address. Return to Client-1 Remote Desktop. In the Windows search field, type "Administrator Comman Promp" and open it. Next to your user name, type "ping -t"and DC1's Private IP and hit enter. You will see the request "time out" due to DC1's firewall blocking icmp traffic. 
 <br />  
 </p>
 <br />
@@ -105,12 +105,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <br />  
 <p>  
-2.a In order to allow traffic, go back to Azure, into DC1 and copy the Public IP address. Open a separate (2nd) remote desktop and connect to it using DC1's Public IP address. You will see a "Server Manager" Dashboard.
+2.a   In order to allow traffic, go back to Azure, into DC1 and copy the Public IP address. Open a separate (2nd) remote desktop and connect to it using DC1's Public IP address. You will see a "Server Manager" Dashboard.
 <br />  
 <p>  
 <br />
 <p>
 <img src="https://i.imgur.com/EL2Vh1w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />  
+<p>  
 </p>
 <br />
 <p>   
@@ -119,7 +121,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>  
 </p>
 <p>
-2.a.1 Next, while still in DC1 Remote, go to the Windows search field and type "wf.msc" (windows firewall) and open the App.
+2.a.1   Next, while still in DC1 Remote, go to the Windows search field and type "wf.msc" (windows firewall) and open the App.
 <br />  
 <p>  
 <br />
@@ -130,7 +132,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>  
 </p>
 <p>
-2.a.2  App opens. Expand the window in order to view all.  In the upper left corner, click on "Inbound Rules". Click on "Protocol" and look for ICMPv4 (2 Core Networking). Highlight and right-click on both(one at a time) and select "Enable Rule".
+2.a.2   App opens. Expand the window in order to view all.  In the upper left corner, click on "Inbound Rules". Click on "Protocol" and look for ICMPv4 (2 Core Networking). Highlight and right-click on both(one at a time) and select "Enable Rule".
 <br />  
 <p>  
 <br />
@@ -140,7 +142,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p> 
 </p>
 <br />
-2.a.3  Minimize DC1 Remote and go back to Client-1 Remote. You should start seeing the "Reply from" message start to populate. This verifies connectivity. Pres "CTRL C" to stop the ping.
+2.a.3   Minimize DC1 Remote and go back to Client-1 Remote. You should start seeing the "Reply from" message start to populate. This verifies connectivity. Pres "CTRL C" to stop the ping.
 <br />  
 </p>
 <br />
@@ -150,7 +152,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>  
-In order to install Active Directory:.
+3.  In order to install Active Directory, log into DC-1 Remote Desktop. Go to the Windows search field and :.
 </p>
 <br />
 <br />  
