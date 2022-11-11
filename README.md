@@ -321,7 +321,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br
 <br />
 <p> 
-5.a  Next, return to Azure and set Client-1's DNS settings to DC-1's Private IP address by :logging into Client-1 via Remote Desktop as the original user name and password. Once in remote desktop-Client-1, Go to Windows Start >Search Settings > About > "Rename this PC Advanced". Next window, click on "Change". Next small window: Select "Domain", add your domain name and click OK .   
+5.a  Next, return to Azure and set Client-1's DNS settings to DC-1's Private IP address by: logging into Client-1 via Remote Desktop using the Public IP address and with your original user name and password. Once in remote desktop-Client-1, Go to Windows Start >Search Settings > About > "Rename this PC Advanced". Next window, click on "Change". Next small window: Select "Domain", add your domain name and click OK. Next small pop up window, add "yourdomain.com\jane_admin" and the password. Click OK.   
 </p>
 <br />  
 <p>
@@ -331,7 +331,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p>  
- 5.b  In order to join Client-1 to your domain controller (DC):   
+ 5.b  You will see a small pop up welcome screen (possibly behind the other open screens). On that screen, click "OK" and then "OK" again to restart the computer 
 </p>
 <br />  
 <p>
