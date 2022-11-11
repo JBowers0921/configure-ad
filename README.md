@@ -424,5 +424,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <p> 
 <img src="https://imagizer.imageshack.com/img922/7465/F00hhh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
-  
+ </p>
+<br />  
+<p>
+<p>  
  You have now successfully completed all of the configuration steps. Congrats!
