@@ -310,23 +310,23 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br
 <br />
-<p> 
-5.   In order to join Client-1 to your domain controller (DC):           .
+<p>P
+5.   In order to join Client-1 to your domain controller (DC): You should first return to Azure and set Client-1's  DNS settings to DC-1's Private IP address by       logging into Client-1 via Remote Desktop. Once in remote desktop-Client-1, Go to Windows Start >Search Settings > About > "Rename this PC Advanced"  .
 </p>
 <br />
 <br />  
 <p>
-<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imagizer.imageshack.com/v2/679x586q90/923/hGGjQM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br
 <br />
 <p> 
-5.a   In order to join Client-1 to your domain controller (DC):   
+5.a  In order to join Client-1 to your domain controller (DC): You should first return to Azure and set Client-1's  DNS settings to DC-1's Private IP address by       logging into Client-1 via Remote Desktop. Once in remote desktop-Client-1, Go to Windows Start >Search Settings > About > "Rename this PC Advanced". Next window, click on "Change". Next small window: Select "Domain", add your domain name and click OK .   
 </p>
 <br />  
 <p>
 <p>   
-<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imagizer.imageshack.com/img922/637/KW1CAh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />  
 <p>
