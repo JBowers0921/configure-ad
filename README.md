@@ -332,7 +332,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p>  
- 5.b  You will see a small pop up welcome screen (possibly behind the other open screens). On that screen, click "OK" and then "OK" again to restart the computer 
+ 5.b  You will see a small pop up welcome screen (possibly behind the other open screens). On that screen, click "OK" and then "OK" again to restart the computer. 
 </p>
 <br />  
 <p>
@@ -342,7 +342,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p> 
-5.c  You will see
+5.c  Log back into Remote Desktop Client-1 as jane_admin.
 </p>
 <br />  
 <p>
@@ -357,19 +357,44 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <br />  
 <p>  
-6.   In order to  Set up Remote Desktop for non-admin users on Client-1:.
+6.   The next step is set up Remote Desktop for non-admin users on Client-1: Go to the Windows Icon at the bottom left of your screen. Right-click on it and go to SYSTEM > REMOTE DESKTOP > under User accounts select "Select users that can remotely access...". Next pop-up window, select ADD. Next pop-up window in the open field, type in "domain users" and click "check names". Next, click OK and OK. Now, all non-admins/ domain users are allowed to connect remotely to Client-1.
 </p>
 <br />
 <br />  
 <p>
 <p>
-<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imagizer.imageshack.com/img923/6373/fdtoXW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />  
 <p>
 <p>
-7.  Finally, In order to create additional users and log in with one of the created users:.
+7.  Finally, In order to create additional users and log in with one of the created users: Log into DC-1 as "jane_admin". Go to the Windows start icon and search for POWERSHELL_ise. Click on it and open as AN ADMIN. Open a new file by clicking on the first document icon under the word "file" on Windows Powershell ISE window.
 </p>
 <br />
 <br />  
 <p>
+<img src="https://imagizer.imageshack.com/img924/7867/41z8cp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />  
+<p>
+<p>
+7.a  Go to your training document link that was provided on Lab 5 simple list . Open it and copy the "raw data" code and paste the copied contents of the script into the open file on Windows Powershell. You can go to line 3 on the script and adjust the numbers if you like. 
+</p>
+<br />
+<br />  
+<p>
+<img src="https://imagizer.imageshack.com/img922/6141/zvgZan.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />  
+<p>
+<p>
+7.b  Click on the green triangle at the top to "RUN SCRIPT". You will start to see the traffic created at the bottom.
+</p>
+<br />
+<br />  
+<p>
+<img src="https://imagizer.imageshack.com/img922/6505/SDk0vV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />  
+<p>
+<p>   
