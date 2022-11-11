@@ -152,13 +152,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>  
-3.  In order to install Active Directory, log into DC-1 Remote Desktop. Go to the Windows search field and :.
+3.  In order to install Active Directory, log into DC-1 Remote Desktop. Go to the Windows search field and type "Active Directory Domain Services". Open and install the app. The Server Manager window will open. Click on "Add roles & Features", click NEXT, NEXT
 </p>
 <br />
 <br />  
 <p>
 <p>
-<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jd02ltl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <br />  
