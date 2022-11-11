@@ -368,7 +368,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p>
-7.  Finally, In order to create additional users and log in with one of the created users: Log into DC-1 as "jane_admin". Go to the Windows start icon and search for POWERSHELL_ise. Click on it and open as AN ADMIN. Open a new file by clicking on the first document icon under the word "file" on Windows Powershell ISE window.
+7.  Finally, In order to create additional users and log in with one of the created users: Log into DC-1 as "jane_admin". Go to the Windows start icon and search for ADMINISTRATOR wINDOWS POWERSHELL_ise. Click on it and open as AN ADMIN. Open a new file by clicking on the first document icon under the word "file" on Administrator Windows Powershell ISE window.
 </p>
 <br />
 <br />  
@@ -378,7 +378,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p>
-7.a  Go to your training document link that was provided on Lab 5 simple list . Open it and copy the "raw data" code and paste the copied contents of the script into the open file on Windows Powershell. You can go to line 3 on the script and adjust the numbers if you like. 
+7.a  Go to your training document link that was provided on Lab 5 simple list . Open it and copy the "raw data" code and paste the copied contents of the script into the open file on Administrator Windows Powershell. You can go to line 3 on the script and adjust the numbers if you like. 
 </p>
 <br />
 <br />  
@@ -398,3 +398,31 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p>   
+7.c Go back to Active Directory Users and Computer. Click on the _Employees folder and scroll down and click Refresh to see the added user accounts.
+</p>
+<br />
+<br />  
+<p>
+<img src="https://imagizer.imageshack.com/img924/8684/B3CTog.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />  
+<p>
+<p>
+7.d  Write down one of the User accounts, log out of Client-1 and log back into Client-1 with the credentials and password of the new user.  
+</p>
+<br />
+<br />  
+<p>
+<img src="https://imagizer.imageshack.com/img924/5296/4ytOOZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />  
+<p>
+<p> 
+<img src="https://imagizer.imageshack.com/img923/575/pcLRDC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+ </p>
+<br />  
+<p>
+<p> 
+<img src="https://imagizer.imageshack.com/img922/7465/F00hhh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+  
+ You have now successfully  
