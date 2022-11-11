@@ -310,8 +310,38 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br
 <br />
+<p> 
+5.   In order to join Client-1 to your domain controller (DC):           .
+</p>
+<br />
+<br />  
+<p>
+<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br
+<br />
+<p> 
+5.a   In order to join Client-1 to your domain controller (DC):   
+</p>
+<br />  
+<p>
+<p>   
+<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />  
+<p>
 <p>  
-5.   In order to  Set up Remote Desktop for non-admin users on Client-1:.
+ 5.b  In order to join Client-1 to your domain controller (DC):   
+</p>
+<br />  
+<p>
+<p>   
+<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />  
+<p>
+<p>  
+6.   In order to  Set up Remote Desktop for non-admin users on Client-1:.
 </p>
 <br />
 <br />  
@@ -322,7 +352,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p>
-6.  Finally, In order to create additional users and log in with one of the created users:.
+7.  Finally, In order to create additional users and log in with one of the created users:.
 </p>
 <br />
 <br />  
