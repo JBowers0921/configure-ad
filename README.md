@@ -152,7 +152,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>  
-3.  In order to install Active Directory, log into DC-1 Remote Desktop. Go to the Windows search field and type "Active Directory Domain Services". Open and install the app. The Server Manager window will open. Click on "Add roles & Features", click NEXT, NEXT
+3.  In order to install Active Directory, log into DC-1 Remote Desktop. Go to the Windows search field and type "Active Directory Domain Services". Open and install the app. The Server Manager window will open. Click on "Add roles & Features", click NEXT, NEXT AND NEXT. You will be on the "Select server roles" screen.
 </p>
 <br />
 <br />  
@@ -162,14 +162,45 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>
 <br />  
-<p>  
-In order to create an Admin and Normal User Account in AD.
+<p> 
+3.a   On the Select server roles screen, click on "Active Directory Domain Service" and then "Add Features". Then on the next screens, click NEXT, NEXT and INSTALL.
 </p>
 <br />
 <br />  
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dDZJJFx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<br />
+<br />  
+<p>
+3.b   On the next screen, wait for the process to finish and click CLOSE. 
+<p>
+<br />
+<br />  
+<p>  
+<img src="https://i.imgur.com/bFLw62u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<p>
+<br />
+<br />  
+<p>  
+3.C   On the next screen, look for the warning triangle in the upper right by the flag on the dash board. Click on it to open a small screen. Select " Promote This Server to a domain". 
+<p>
+<br />
+<br />  
+<p>
+<img src="https://i.imgur.com/TR0liPc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<p>
+<br />
+<br />  
+<p>    
+4.  In order to create an Admin and Normal User Account in AD.
+</p>
+<br />
+<br />  
+<p>
+<p>
+<img src="    height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />  
 <p>  
 </p>
@@ -180,7 +211,7 @@ In order to  Set up Remote Desktop for non-admin users on Client-1:.
 <br />  
 <p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />  
 <p>
