@@ -408,7 +408,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p>
-7.d  Write down one of the User accounts, log out of Client-1 and log back into Client-1 with the credentials and password of the new user.  
+7.d  Write down one of the User accounts, log out of Client-1 and log back into Client-1 Remotely with the credentials and password of the new user. You can open the Command Prompt to see the user logged in. And you can also view the account by going to THIS PC > WINDOWS(C:) > click and open "USERS".
 </p>
 <br />
 <br />  
@@ -425,4 +425,4 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p> 
 <img src="https://imagizer.imageshack.com/img922/7465/F00hhh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
   
- You have now successfully  
+ You have now successfully completed all of the configuration steps. Congrats!
