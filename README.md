@@ -225,7 +225,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>  
 </p>
 <p>
-4.a    Next, on the new screen, right-click on your domain name. Go to NEW and on the drop down, select Organizational Unit. On the next screen, name the Org Unit folder "_Employees" and click OK. Repeat the steps and create an _Admin Org Unit folder. Right-click on the domain name and "refesh" to see the changes.            .
+4.a    Next, on the new screen, right-click on your domain name. Go to NEW and on the drop down, select Organizational Unit. On the next screen, name the Org Unit folder "_Employees" and click OK. Repeat the steps and create an "_Admin" Org Unit folder. Right-click on the domain name and "refesh" to see the changes.            .
 </p>
 <br />
 <br />  
@@ -237,17 +237,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>  
 <img src="https://imagizer.imageshack.com/img923/6541/sNtpE2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<br 
-4.b    In order to create a new User, right-click on your _Admin OU folder. Go to NEW and User and fill in the fieds as shown below and then click NEXT:
+<br />  
+<p>
+4.b    In order to create a new User, right-click on your "_Admin" OU folder. Go to NEW and User and fill in the fieds as shown below and then click NEXT:
 <br />
 <br />  
 <p>
 <p>
 <img src="https://imagizer.imageshack.com/img924/2533/XE8iOt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+</p>
 <br
 <br />     
 </p>
+4.c    On the next screen, set the password and for training, uncheck "user must change password". Click NEXT and FINISH.   
 <br />
 <br />  
 <p>
@@ -258,30 +261,41 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />  
 <p>
 <p>
-4.c    On the next screen, set the password and for training, uncheck "user must change password". Click NEXT and FINISH.             .
+4.d   Now, you will need to make Jane Doe a Domain Admin and assign her to the Domain Admin Group.     .
 </p>
 <br />
 <br />  
 <p>
 <p>
-<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imagizer.imageshack.com/img923/9737/7Z0eWn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br
+<br />  
+<p>
+ 4.e   To assign Jane Doe to the Domain Admin group, right click on jane doe's domain name and go to PROPERTIES > MEMBERS OF > ADD.
+</p>
+<br />
+<br />  
+<p>
+<p>
+<img src="https://imagizer.imageshack.com/img922/1315/vlHyp1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br
 <br />  
 <p>
 <p> 
-4.d    On the next screen, you will see the user created in the _Admin folder.             .
+ 4.f   Next screen: In the "Enter the object names.." field, type the word "Domain" and click "check Names". Options will populate. Selct "Domain Admins", then OK, APPLY, and OK.
 </p>
 <br />
 <br />  
 <p>
 <p>
-<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imagizer.imageshack.com/img924/4563/UY8ccZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br
 <br />  
 <p>
-<p>     
+<p>    
 5.   In order to  Set up Remote Desktop for non-admin users on Client-1:.
 </p>
 <br />
