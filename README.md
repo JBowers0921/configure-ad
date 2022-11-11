@@ -23,7 +23,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Set up Resources in Azure (Active Subscription)
 - Ensure Connectivity between Client-1 and Domain Controller
 - Install Active Directory
-- Create an Admin and Normal User Account in AD
+- Create an Organizational Unit, Admin and Normal User Account in AD
 - Join Client-1 to your domain
 - Set up Remote Desktop for non-admin users on Client-1
 - Create additional users and log in with one of the created users
@@ -204,7 +204,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 <br />  
 <p>  
-3.e   On the Domain Controller screen, enter your generic password (Password1 for training). Type it again for confirmation. Then on the proceding screens :Click NEXT, NEXT. When the Net Bios domain populates, click NEXT, and NEXT on Paths, NEXT on Review. Wait on the Precheck, then click INSTALL.  Wait for the installation to complete. You may get logged out of DC-1 remote desktop. Log back in with your newly created credentials(anydomain.com\username and password) using DC-1's Public IP address found in Azure.
+3.e   On the Domain Controller screen, enter your generic password (Password1 for training). Type it again for confirmation. Then on the proceding screens :Click NEXT, NEXT. When the Net Bios domain populates, click NEXT, and NEXT on Paths, NEXT on Review. Wait on the Precheck, then click INSTALL.  Wait for the Active Directory installation to complete. You may get logged out of DC-1 remote desktop. Log back in with your newly created credentials(anydomain.com\username and then password) using DC-1's Public IP address found in Azure.
 <p>
 <br />
 <br />  
@@ -214,18 +214,51 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 <br />  
 <p>       
-4.  In order to create an Admin and Normal User Account in AD, while DC-1 is still open go to.
+4.  In order to create an Organizational Unit, Admin and Normal User Account in AD, while DC-1 is still open go to "Tools" and click on "AD Users and computers".
 </p>
 <br />
 <br />  
 <p>
 <p>
-<img src="    height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/n8UMVu3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />  
 <p>  
 </p>
 <p>
-In order to  Set up Remote Desktop for non-admin users on Client-1:.
+4.a    Next, on the new screen, right-click on your domain name. Go to NEW and on the drop down, select Organizational Unit.              .
+</p>
+<br />
+<br />  
+<p>
+<p>
+<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br 
+4.b    Next               .
+</p>
+<br />
+<br />  
+<p>
+<p>
+<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br
+<br />  
+<p>
+<p>
+4.c    Next               .
+</p>
+<br />
+<br />  
+<p>
+<p>
+<img src="   " height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br
+<br />  
+<p>
+<p>   
+5.   In order to  Set up Remote Desktop for non-admin users on Client-1:.
 </p>
 <br />
 <br />  
@@ -236,7 +269,7 @@ In order to  Set up Remote Desktop for non-admin users on Client-1:.
 <br />  
 <p>
 <p>
-Finally, In order to create additional users and log in with one of the created users:.
+6.  Finally, In order to create additional users and log in with one of the created users:.
 </p>
 <br />
 <br />  
