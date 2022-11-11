@@ -121,7 +121,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>  
 </p>
 <p>
-2.a.1   Next, while still in DC1 Remote, go to the Windows search field and type "wf.msc" (windows firewall) and open the App.
+2.a.1    Next, while still in DC1 Remote, go to the Windows search field and type "wf.msc" (windows firewall) and open the App.
 <br />  
 <p>  
 <br />
@@ -132,7 +132,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>  
 </p>
 <p>
-2.a.2   App opens. Expand the window in order to view all.  In the upper left corner, click on "Inbound Rules". Click on "Protocol" and look for ICMPv4 (2 Core Networking). Highlight and right-click on both(one at a time) and select "Enable Rule".
+2.a.2    App opens. Expand the window in order to view all.  In the upper left corner, click on "Inbound Rules". Click on "Protocol" and look for ICMPv4 (2 Core Networking). Highlight and right-click on both(one at a time) and select "Enable Rule".
 <br />  
 <p>  
 <br />
@@ -142,7 +142,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p> 
 </p>
 <br />
-2.a.3   Minimize DC1 Remote and go back to Client-1 Remote. You should start seeing the "Reply from" message start to populate. This verifies connectivity. Pres "CTRL C" to stop the ping.
+2.a.3    Minimize DC1 Remote and go back to Client-1 Remote. You should start seeing the "Reply from" message start to populate. This verifies connectivity. Pres "CTRL C" to stop the ping.
 <br />  
 </p>
 <br />
@@ -152,7 +152,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <br />
 <p>  
-3.  In order to install Active Directory, log into DC-1 Remote Desktop. Go to the Windows search field and type "Active Directory Domain Services". Open and install the app. The Server Manager window will open. Click on "Add roles & Features", click NEXT, NEXT AND NEXT. You will be on the "Select server roles" screen.
+3.   In order to install Active Directory, log into DC-1 Remote Desktop. Go to the Windows search field and type "Active Directory Domain Services". Open and install the app. The Server Manager window will open. Click on "Add roles & Features", click NEXT, NEXT AND NEXT. You will be on the "Select server roles" screen.
 </p>
 <br />
 <br />  
@@ -163,7 +163,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <br />  
 <p> 
-3.a   On the Select server roles screen, click on "Active Directory Domain Service" and then "Add Features". Then on the next screens, click NEXT, NEXT and INSTALL.
+3.a    On the Select server roles screen, click on "Active Directory Domain Service" and then "Add Features". Then on the next screens, click NEXT, NEXT and INSTALL.
 </p>
 <br />
 <br />  
@@ -174,7 +174,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 <br />  
 <p>
-3.b   On the next screen, wait for the process to finish and click CLOSE. 
+3.b    On the next screen, wait for the process to finish and click CLOSE. 
 <p>
 <br />
 <br />  
@@ -184,7 +184,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 <br />  
 <p>  
-3.C   On the next screen, look for the warning triangle in the upper right by the flag on the dash board. Click on it to open a small screen. Select " Promote This Server to a domain". 
+3.c   On the next screen, look for the warning triangle by the flag on the dash board tool bar. Click on it to open a small screen. Select " Promote This Server to a domain...". 
 <p>
 <br />
 <br />  
@@ -193,7 +193,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 <br />
 <br />  
-<p>    
+<p>
+3.d   On the Deployment Configuration screen, select "Add a forest" and then give it a root domain name. Click NEXT.  
+<p>
+<br />
+<br />  
+<p>
+<img src="https://i.imgur.com/MsTs871.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<p>
+<br />
+<br />  
+<p>  
+3.e   On the Domain Controller screen, enter your generic password (Password1 for training). Type it again for confirmation. Then on the proceding screens :Click NEXT, NEXT. When the Net Bios domain populates, click NEXT, and NEXT on Paths, NEXT on Review. Wait on the Precheck, then click INSTALL.  Wait for the installation to complete. You may get logged out.  
+<p>
+<br />
+<br />  
+<p>
+<img src="https://i.imgur.com/W4yYfxh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<p>
+<br />
+<br />  
+<p>       
 4.  In order to create an Admin and Normal User Account in AD.
 </p>
 <br />
